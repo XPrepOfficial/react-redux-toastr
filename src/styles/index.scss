@@ -114,6 +114,9 @@ body.toastr-confirm-active {
         margin-top: -35px;
         left: 5px;
         line-height: 60px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
       }
 
       .toastr-icon {
@@ -156,6 +159,8 @@ body.toastr-confirm-active {
       outline: none;
       opacity: 0.5;
       cursor: pointer;
+      display: flex;
+      align-items: center;
       font-family: "Helvetica Neue", Helvetica, Arial sans-serif;
       color: #000;
 
@@ -206,6 +211,8 @@ body.toastr-confirm-active {
 
     &.rrt-error {
       background-color: $errorBgColor;
+      display: flex;
+      align-items: center;
 
       .rrt-progressbar {
         background-color: darken($errorBgColor, 15%);
